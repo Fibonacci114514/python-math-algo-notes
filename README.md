@@ -40,25 +40,31 @@
 
 ```
 Python-Notes/
-├── Python.md                      # 🧭 总导航(所有章节入口)
-├── 实验项目索引.md                # 🧪 实验代码顶层导航
+├── Python.md                         # 🧭 总导航(所有章节入口)
 │
-├── 第一章 ~ 第八章/               # 📚 理论笔记(8个章节)
-│   ├── 章节名.md                 # 各章节 MOC
-│   └── 子主题.md                 # 细分知识点页面
+├── 导航页/                           # 📚 章级笔记(8 章)
+│   ├── Python简介.md
+│   ├── 数据类型与运算符.md
+│   ├── 程序流程控制.md
+│   ├── 字符串.md                     # 本章内容全部在这一页
+│   ├── 列表与元组.md
+│   ├── 字典与集合.md
+│   ├── 函数.md
+│   └── 文件.md
 │
-├── 实验/                         # 💻 实验代码(按功能分类)
-│   ├── I - Turtle绘图实验/
-│   ├── II - 基础测试实验/
-│   ├── III - 数值算法与模拟实验/
-│   ├── IV - 字符串与随机生成实验/
-│   ├── V - 列表与马尔可夫链实验/
-│   ├── VI - 字典与映射实验/
-│   └── VII - 函数与递归进阶实验/
+├── 内容页/                           # 📄 细分知识点(7 章 / 29 篇)
+│   └── <章>/<概念>.md                # 例:函数/递归函数.md
 │
-├── README.md                     # 本文件
-└── LICENSE                       # CC BY-NC-SA 4.0
+├── PythonProject/                    # 💻 实验代码(按功能分类)
+│   ├── 实验项目索引.md               # 🧪 实验代码顶层导航
+│   ├── I/    II/   III/   IV/
+│   └── V/    VI/   VII/              # 每个目录配一份同名 MOC
+│
+├── README.md                         # 本文件
+└── LICENSE                           # CC BY-NC-SA 4.0
 ```
+
+> 实验代码以 `.py` 与同名 `.py.md`(代码说明)配对组织;每个实验目录另有一份同名 MOC.
 
 ---
 
@@ -116,7 +122,7 @@ graph TD
 ### 方式二:本地 Obsidian 阅读(推荐)
 1. **克隆本仓库**:
    ```bash
-   git clone https://github.com/你的用户名/Python-Notes.git
+   git clone https://github.com/Fibonacci114514/Python-program-notes-but-with-a-large-amount-of-mathematical-and-algorithmic-content-added..git
    ```
 2. **用 Obsidian 打开该文件夹**(支持双链,知识图谱,数学公式渲染)
 3. 从 `Python.md` 开始浏览
