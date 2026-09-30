@@ -122,7 +122,7 @@ graph TD
 ### 方式二:本地 Obsidian 阅读(推荐)
 1. **克隆本仓库**:
    ```bash
-   git clone https://github.com/Fibonacci114514/Python-program-notes-but-with-a-large-amount-of-mathematical-and-algorithmic-content-added..git
+   git clone https://github.com/Fibonacci114514/python-math-algo-notes.git
    ```
 2. **用 Obsidian 打开该文件夹**(支持双链,知识图谱,数学公式渲染)
 3. 从 `Python.md` 开始浏览
